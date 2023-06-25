@@ -1,0 +1,32 @@
+#glasses_content{
+    background-image: url(../../public/glassesImage/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#glasses_content .col-6 {
+    width: calc(50% - 100px);
+    /* width: 50%; */
+    margin-left: 100px;
+}
+
+#glasses_content .col-6 img.position-absolute{
+    width: 55%;
+    height: 17%;
+    top: 25%;
+    left: 23%;
+}
+#glasses_content .col-6 div.position-absolute{
+    background-color: rgba(255, 174, 112, 0.568);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+}
+
+#glasses_content .bg-white .col-2 img {
+    border: 2px solid #ccc;
+    padding: 6px;
+    cursor: pointer;
+}
